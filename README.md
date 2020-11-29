@@ -10,6 +10,8 @@ The Unity Realsim controller was created to give full control of the player's mo
 
 RealismController 0.5:
 
+* Different types of movement styles.
+* Light First-Person Support
 * Controller Support (This is currently supports the old input system, a version with Unity's new input system will be released soon)
 * Independent movement speeds for each state (walking, jogging, running)
 * Animation State Manager (List of states below)
@@ -17,22 +19,20 @@ RealismController 0.5:
 * Smooth Speed Transitioning (Your speed when transition between walking, running, and jogging states is smoothed out)
 * Disable Jogging (Turn off jogging completely)
 * Disable Running (Turn off running completely)
+* Toggle-Mode Sprinting (Press sprint button once to toggle, otherwise the sprint button will need to be held down)
+* Player Gravity
 * Disable Jumping (Turn off jumping completely)
 * Different types of jumps/jump states (Standing Jump, Walk Jump, Jogging Jump, Running Jump)
-* Toggle-Mode Sprinting (Press sprint button once to toggle, otherwise the sprint button will need to be held down)
 * Head IK Movement (IF active and set correctly. The character's head will look which way you do)
 
 RealismCamera 0.9:
 
+* Gamepad/Controller Support also only on the old input system at the moment.
+* Adjustable follow distance
 * Smooth position lerping
 * Smooth rotation damping
-
-## Setting Up The Realism Controller
-
-
-
-## Setting Up The Realism Camera
-
+* Mouse & Joystick Sensitivity
+* Invert X/Y rotation
 
 ## Supported Animation States (Case-Sensative):
 
@@ -45,6 +45,10 @@ RealismController 0.5
 * Jogging
 * Running
 * Jumping
+
+## Animations
+
+Animations are not included with the scripts, but they can be acquired by going to mixamo.com and uploading or downloading a character.
 
 ## In the Works
 
