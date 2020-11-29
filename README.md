@@ -2,7 +2,7 @@
 
 ## About The Controller
 
-THIS IS NOT A TUTORIAL PROJECT. THIS IS VERY ADVANCED AND YOU MUST ALREADY HAVE AN UNDERSTANDING OF THE UNITY ENGINE
+THIS IS NOT A TUTORIAL PROJECT. THIS IS VERY ADVANCED AND YOU MUST ALREADY HAVE A VERY GOOD UNDERSTANDING OF THE UNITY ENGINE
 
 The Unity Realism controller was created to give full control of the player's movement, allowing players to move through environments seamlessly and realistically. The scripts currently allow for smooth speed transitioning, animation state management, movement state management, IK integration and more. Full feature list below. The character controller and camera controller scripts both work independently allowing for integration into your current projects. However, the scripts will work together if they have the chance to. Contributions are encouraged. Happy programming!
 
