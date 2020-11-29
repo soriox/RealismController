@@ -88,6 +88,14 @@ Size the Character Controller correctly. Then in the RealsimController inspector
 
 If you have set up the inputs correctly as explained above, everything will work fine. If not, then please review the instructions again.
 
+## Animations
+
+Animations are not included with the scripts, but they can be acquired by going to mixamo.com and uploading or downloading a character.
+
+## Animation Controller
+
+There is a SampleController.controller included in this repo. You can assign it your character to get the preset parameters and states that I have created. The states in the controller are empty, so you'll need to assign your own animations, but the transitions and conditions are already in place and will be updated with this repo. If you are using my premade animation controller, be sure to update it frequently.
+
 ## Supported Animation States (Case-Sensative):
 
 Below are the supported Animation states. You will need these to create an Animation Controller for your character. Create these as boolean parameters in your Animation Controller:
@@ -100,9 +108,7 @@ RealismController 0.5
 * Running
 * Jumping
 
-## Animations
 
-Animations are not included with the scripts, but they can be acquired by going to mixamo.com and uploading or downloading a character.
 
 ## In the Works
 
