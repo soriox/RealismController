@@ -36,11 +36,14 @@ RealismCamera 0.9:
 
 ## Setting up the Realism Controller
 
-Simply add character to your scene, then attach the script to the character or the GameObject containing the character's body. Adding the script will automatically add a Character Controller if one is not already there. You will need to add an Animator along with the controller and avatar if you are using animations. Size the Character Controller correctly, change the controller type, and assign the CameraTransform in the RealsimController inspector (the camera that will follow the player).
+Before setting up anything you need to decide your project's input system. Currently the Realism Controller only works with the old Unity input system. The easiest way to get this working is to add the included InputManager.asset file to the ProjectSettings folder located in the root of your Unity project. THIS WILL REPLACE ALL OF YOUR CURRENT INPUTS
+
+If you don't want to replace your current input manager, then you can create new axes for your required inputs, and/or change the name of the inputs in the RealismController.cs and the RealismCamera.cs
+
+Now, simply add character to your scene, then attach the script to the character or the GameObject containing the character's body. Adding the script will automatically add a Character Controller if one is not already there. You will need to add an Animator along with the controller and avatar if you are using animations. Size the Character Controller correctly, change the controller type, and assign the CameraTransform in the RealsimController inspector (the camera that will follow the player). Change the rest of values to match your project's needs.
 
 <img src="https://i.imgur.com/FfGVX8g.png" />
 
-Change the values to match your project desires and you are ready to go. This will not work right away without the included 
 
 ## Supported Animation States (Case-Sensative):
 
