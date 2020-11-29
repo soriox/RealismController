@@ -34,6 +34,14 @@ RealismCamera 0.9:
 * Mouse & Joystick Sensitivity
 * Invert X/Y rotation
 
+## Setting up the Realism Controller
+
+Simply add character to your scene, then attach the script to the character or the GameObject containing the character's body. Adding the script will automatically add a Character Controller if one is not already there. You will need to add an Animator along with the controller and avatar if you are using animations. Size the Character Controller correctly, change the controller type, and assign the CameraTransform in the RealsimController inspector (the camera that will follow the player).
+
+<img src="https://i.imgur.com/FfGVX8g.png" />
+
+Change the values to match your project desires and you are ready to go. This will not work right away without the included 
+
 ## Supported Animation States (Case-Sensative):
 
 Below are the supported Animation states. You will need these to create an Animation Controller for your character. 
