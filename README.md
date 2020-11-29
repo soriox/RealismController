@@ -1,5 +1,4 @@
-# RealsimController (Advanced)
-
+# RealsimController
 
 ## About The Controller
 
@@ -11,6 +10,7 @@ The Unity Realsim controller was created to give full control of the player's mo
 
 RealismController 0.5:
 
+* Controller Support (This is currently supports the old input system, a version with Unity's new input system will be released soon)
 * Independent movement speeds for each state (walking, jogging, running)
 * Animation State Manager (List of states below)
 * Adjustable turn/rotation smoothing on the Y-Axis
@@ -24,7 +24,15 @@ RealismController 0.5:
 
 RealismCamera 0.9:
 
-## Setting Up The Controller
+* Smooth position lerping
+* Smooth rotation damping
+
+## Setting Up The Realism Controller
+
+
+
+## Setting Up The Realism Camera
+
 
 ## Supported Animation States (Case-Sensative):
 
@@ -52,3 +60,9 @@ RealismController 0.7 (Coming soon)
 ## Realism Health Manager 0.1 (Coming Soon)
 
 The Realism Health Manager is the next upcoming module for the Characer Controller. This will be a independent script that will work with the character controller to calculate health, armor, stamina, etc.
+
+## Contact Me
+
+Sorioxcode@gmail.com
+
+Project Link: https://github.com/soriox/RealsimController
