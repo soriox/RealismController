@@ -80,7 +80,7 @@ Add RealismCamera.cs to your camera that will be following the player. Assign a 
 
 Simply add character to your scene, then attach the script to the character or the GameObject containing the character's body. Adding the script will automatically add a Character Controller if one is not already there. 
 
-You will need to add an Animator then assign the Animation Controller and Avatar. Make sure Root Motion is turned on. Use the included Animation Controller. When you open the controller you'll notice that the states are there but they do not have animations. You can download or create animations, and assign them in their appropriate states. I mentioned above that this is not a tutorial project so I will not show how to create the Animation Controller. However the animation states that are currently being used will always be listed in this readme.md.
+You will need to add an Animator then assign the Animation Controller and Avatar. Make sure Root Motion is turned on. Use the included Animation Controller (SampleController.controller). When you open the controller you'll notice that the states are there but they do not have animations. You can download or create animations, and assign them in their appropriate states. I mentioned above that this is not a tutorial project so I will not show how to create the Animation Controller. However the animation states that are currently being used will always be listed in this readme.md.
 
 Size the Character Controller correctly. Then in the RealsimController inspector, change the controller type, and assign the CameraTransform. Change the rest of values to match your project's needs. For the smoothest look and results, please make sure the walk, jog, and run speeds match their animations.
 
